@@ -17,6 +17,12 @@
       "email": "oleg@demo.ru",
       "password": "123",
       "id": "9r1b2h1iol6up8mr3"
+    },
+    {
+      "name": "Ален Евтихов",
+      "email": "alen.evtikhov@gmail.com",
+      "password": "123",
+      "id": "9r1b2h1xil6uqvu2u"
     }
   ],
   "accounts": [
@@ -46,9 +52,14 @@
       "id": "9r1b2h2lwl6qx7wkl"
     },
     {
-      "name": "Игра",
-      "user_id": "9r1b2h1iol6up8mr3",
-      "id": "9r1b2h1twl6uqdpeq"
+      "name": "Депозит",
+      "user_id": "9r1b2h1xil6uqvu2u",
+      "id": "9r1b2h1xpl6uqw2td"
+    },
+    {
+      "name": "Ипотека",
+      "user_id": "9r1b2h1xil6uqvu2u",
+      "id": "9r1b2h1xwl6uqwmvv"
     }
   ],
   "transactions": [
@@ -224,22 +235,22 @@
       "created_at": "2022-08-15T11:05:48.106Z"
     },
     {
-      "id": "9r1b2h1tzl6uqdy16",
+      "id": "9r1b2h1xsl6uqwfgs",
       "type": "income",
-      "name": "Ставка",
-      "sum": 100,
-      "account_id": "9r1b2h1twl6uqdpeq",
-      "user_id": "9r1b2h1iol6up8mr3",
-      "created_at": "2022-08-15T12:27:25.961Z"
+      "name": "Инвестиция",
+      "sum": 1000,
+      "account_id": "9r1b2h1xpl6uqw2td",
+      "user_id": "9r1b2h1xil6uqvu2u",
+      "created_at": "2022-08-15T12:41:48.363Z"
     },
     {
-      "id": "9r1b2h1u6l6uqec9z",
+      "id": "9r1b2h1xzl6uqx27k",
       "type": "expense",
-      "name": "Молоко",
-      "sum": 30,
-      "account_id": "9r1b2h1twl6uqdpeq",
-      "user_id": "9r1b2h1iol6up8mr3",
-      "created_at": "2022-08-15T12:27:44.422Z"
+      "name": "Ежемесячный взнос",
+      "sum": 50000,
+      "account_id": "9r1b2h1xwl6uqwmvv",
+      "user_id": "9r1b2h1xil6uqvu2u",
+      "created_at": "2022-08-15T12:42:17.839Z"
     }
   ]
 }
