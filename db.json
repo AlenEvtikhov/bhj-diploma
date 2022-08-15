@@ -11,6 +11,12 @@
       "email": "evtihov.alen@mail.ru",
       "password": "1234",
       "id": "9r1b2h279l6qvmfwl"
+    },
+    {
+      "name": "Иван Петров",
+      "email": "oleg@demo.ru",
+      "password": "123",
+      "id": "9r1b2h1iol6up8mr3"
     }
   ],
   "accounts": [
@@ -28,6 +34,21 @@
       "name": "Бизнес",
       "user_id": "1",
       "id": "3"
+    },
+    {
+      "name": "На отдых",
+      "user_id": "9r1b2h279l6qvmfwl",
+      "id": "9r1b2h2i9l6qwtfd7"
+    },
+    {
+      "name": "1",
+      "user_id": "9r1b2h279l6qvmfwl",
+      "id": "9r1b2h2lwl6qx7wkl"
+    },
+    {
+      "name": "Игра",
+      "user_id": "9r1b2h1iol6up8mr3",
+      "id": "9r1b2h1twl6uqdpeq"
     }
   ],
   "transactions": [
@@ -165,6 +186,60 @@
       "sum": 300000,
       "type": "expense",
       "user_id": "1"
+    },
+    {
+      "id": "9r1b2h2lsl6qx4paq",
+      "type": "income",
+      "name": "Зарплата",
+      "sum": 1000,
+      "account_id": "9r1b2h2i9l6qwtfd7",
+      "user_id": "9r1b2h279l6qvmfwl",
+      "created_at": "2022-08-12T20:25:07.345Z"
+    },
+    {
+      "id": "9r1b2h2pql6qxbid9",
+      "type": "expense",
+      "name": "Вода",
+      "sum": 50,
+      "account_id": "9r1b2h2lwl6qx7wkl",
+      "user_id": "9r1b2h279l6qvmfwl",
+      "created_at": "2022-08-12T20:30:24.956Z"
+    },
+    {
+      "id": "9r1b2h2vdl6qxk04m",
+      "type": "income",
+      "name": "продал",
+      "sum": 50,
+      "account_id": "9r1b2h2i9l6qwtfd7",
+      "user_id": "9r1b2h279l6qvmfwl",
+      "created_at": "2022-08-12T20:37:01.221Z"
+    },
+    {
+      "id": "9r1b2h148l6ungytn",
+      "type": "income",
+      "name": "Приход",
+      "sum": 100,
+      "account_id": "9r1b2h2i9l6qwtfd7",
+      "user_id": "9r1b2h279l6qvmfwl",
+      "created_at": "2022-08-15T11:05:48.106Z"
+    },
+    {
+      "id": "9r1b2h1tzl6uqdy16",
+      "type": "income",
+      "name": "Ставка",
+      "sum": 100,
+      "account_id": "9r1b2h1twl6uqdpeq",
+      "user_id": "9r1b2h1iol6up8mr3",
+      "created_at": "2022-08-15T12:27:25.961Z"
+    },
+    {
+      "id": "9r1b2h1u6l6uqec9z",
+      "type": "expense",
+      "name": "Молоко",
+      "sum": 30,
+      "account_id": "9r1b2h1twl6uqdpeq",
+      "user_id": "9r1b2h1iol6up8mr3",
+      "created_at": "2022-08-15T12:27:44.422Z"
     }
   ]
 }
